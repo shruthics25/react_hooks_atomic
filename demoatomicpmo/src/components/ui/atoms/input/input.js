@@ -1,8 +1,8 @@
 import React from "react";
 import { FormControl } from "react-bootstrap";
 
-function input() {
-  return <FormControl type="text" placeholder="search" />;
+function input(props) {
+  return <FormControl type="text" className={props.customClass} placeholder={props.customplaceholder} />;
 }
 
 export default input;

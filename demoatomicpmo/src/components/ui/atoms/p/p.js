@@ -12,7 +12,7 @@
 
 import React from "react"; 
 
-function paragraph(props) {
-  return <p>{props.content}</p>
+function p(props) {
+  return <p className={props.customClass}>{props.content}</p>
 }
- export default paragraph;
+ export default p;

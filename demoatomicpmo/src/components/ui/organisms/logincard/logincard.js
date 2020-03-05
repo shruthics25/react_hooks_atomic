@@ -1,12 +1,11 @@
 import React from "react";
-import Main from "../../molecules/Main/index";
 
-function CardLogin() {
+function logincard() {
   return (
    <section>
-      <Main/>
+      
    </section>
   );
 }
 
-export default CardLogin;
+export default logincard;
