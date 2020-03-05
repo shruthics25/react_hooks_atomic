@@ -1,9 +1,11 @@
 import molecules from "../molecules";
 import logincard from "./logincard/logincard";
+import Header from "./header/header";
 
 const organisms = {
     molecules,
-    logincard
+    logincard,
+    Header
 }
 
 
