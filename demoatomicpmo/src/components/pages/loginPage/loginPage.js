@@ -1,11 +1,12 @@
 import React from "react";
+import Logintemplate from "../../templates/loginTemplate/loginTemplate";
 
-function loginPage() {
+function LoginPage() {
   return (
    <section>
-     <loginPage/>
+     <Logintemplate/>
    </section>
   );
 }
 
-export default loginPage;
+export default LoginPage;

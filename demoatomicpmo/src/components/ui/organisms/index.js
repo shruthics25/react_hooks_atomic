@@ -1,7 +1,10 @@
 import molecules from "../molecules";
+import logincard from "./logincard/logincard";
 
 const organisms = {
-    molecules
+    molecules,
+    logincard
 }
+
 
 export default organisms;

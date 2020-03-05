@@ -1,13 +1,14 @@
 import React from "react";
 import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import LoginPage from "./components/pages/loginPage/loginPage";
 
 
 
 function App() {
   return (
     <div className="App">
-      <h1>Test</h1>
+      <LoginPage/>
     </div>
   );
 }

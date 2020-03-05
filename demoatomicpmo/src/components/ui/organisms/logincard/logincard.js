@@ -1,11 +1,12 @@
 import React from "react";
+import Formgroup from "../../molecules/formgroup/formgroup";
 
-function logincard() {
+function Logincard() {
   return (
    <section>
-      
+      <Formgroup/>
    </section>
   );
 }
 
-export default logincard;
+export default Logincard;

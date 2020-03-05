@@ -2,7 +2,7 @@ import React from "react";
 import { Form } from "react-bootstrap";
 import atoms from "../../atoms";
 
-function customformgroup() {
+function Formgroup() {
     return (
         <Form.Group>
             <atoms.label labelName="Email" />
@@ -11,4 +11,4 @@ function customformgroup() {
     )
 }
 
-export default customformgroup;
+export default Formgroup;
