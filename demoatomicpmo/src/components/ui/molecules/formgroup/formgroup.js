@@ -1,13 +1,21 @@
 import React from "react";
 import { Form } from "react-bootstrap";
-import atoms from "../../atoms";
+import Atoms from "../../atoms";
 
-function Formgroup() {
+function Formgroup(props) {
     return (
-        <Form.Group>
-            <atoms.label labelName="Email" />
-            <atoms.input customplaceholder="Enter Email"/>
+        <section className="pt-4">
+
+        <Form.Group className={props.class}>
+            <Atoms.label labelName="Email" />
+            <Atoms.input customplaceholder="Enter Email"/>
         </Form.Group>
+         <Form.Group className={props.class}>
+            <Atoms.label labelName="Password" />
+            <Atoms.input customplaceholder="Enter Placeholder"/>
+        </Form.Group>
+        </section>
+
     )
 }
 

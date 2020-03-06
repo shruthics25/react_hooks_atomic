@@ -1,9 +1,9 @@
-import atoms from "../atoms";
+import Atoms from "../atoms";
 import Formgroup from "./formgroup/formgroup";
 
-const molecules =  {
-    atoms,
+const Molecules =  {
+    Atoms,
     Formgroup
 }
 
-export default molecules
+export default Molecules

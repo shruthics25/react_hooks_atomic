@@ -1,10 +1,11 @@
 import React from "react";
-import Formgroup from "../../molecules/formgroup/formgroup";
+import Molecules from '../../molecules/index';
 
 function Logincard() {
   return (
    <section>
-      <Formgroup/>
+      <Molecules.Formgroup/>
+      <Molecules.Atoms.Custombutton buttonName="Login"/>
    </section>
   );
 }

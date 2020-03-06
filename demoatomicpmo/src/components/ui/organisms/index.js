@@ -1,12 +1,14 @@
-import molecules from "../molecules";
-import logincard from "./logincard/logincard";
+import Molecules from "../molecules";
+import Logincard from "./logincard/logincard";
 import Header from "./header/header";
+import Atoms from "../atoms";
 
-const organisms = {
-    molecules,
-    logincard,
-    Header
+const Organisms = {
+    Molecules,
+    Logincard,
+    Header,
+    Atoms
 }
 
 
-export default organisms;
+export default Organisms;

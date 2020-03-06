@@ -1,12 +1,12 @@
 import React from "react";
-import Logintemplate from "../../templates/loginTemplate/loginTemplate";
+import LoginTemplate from "../../templates/loginTemplate/loginTemplate";
 import Header from "../../ui/organisms/header/header";
 
 function LoginPage() {
   return (
    <section>
      <Header/>
-     <Logintemplate/>
+     <LoginTemplate/>
    </section>
   );
 }
