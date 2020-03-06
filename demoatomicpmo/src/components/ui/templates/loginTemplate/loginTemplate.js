@@ -8,10 +8,10 @@ function LoginTemplate() {
         <section className="test">
             <Row className="h-100 align-items-center justify-content-center">
                 <Col lg="5">
-                        <Atoms.h1 content="Login" />
+                        <Atoms.h1 Content="Login" />
                         <Organisms.LabelInputForm />
                         <Organisms.LabelInputForm />
-                        <Atoms.Custombutton buttonName="Login"/> 
+                        <Atoms.Custombutton ButtonName="Login"/> 
                 </Col>
             </Row>
         </section>

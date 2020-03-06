@@ -7,11 +7,11 @@ function Header() {
             <Navbar.Brand className="text-white">Atomic Structure Test</Navbar.Brand>
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                    <Atoms.NavLink Href="#HOME" LinkName="Home" customClass="text-white"/>
-                    <Atoms.NavLink Href="#ABOUT" LinkName="about" customClass="text-white"/>
+                    <Atoms.NavLink Href="#HOME" LinkName="Home" CustomClass="text-white"/>
+                    <Atoms.NavLink Href="#ABOUT" LinkName="about" CustomClass="text-white"/>
                 </Nav>
-                <Atoms.input customClass="w-25 mr-3" />
-                <Atoms.Custombutton customClass="bg-white" buttonName="Logout" />
+                <Atoms.input CustomClass="w-25 mr-3" CustomPlaceHolder="search"/>
+                <Atoms.Custombutton CustomClass="bg-white" ButtonName="Logout" />
             </Navbar.Collapse>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
         </Navbar>

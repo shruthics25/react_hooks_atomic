@@ -4,8 +4,8 @@ import Atoms from "../../atoms";
 function LabelInput(props) {
     return (
             <>
-                <Atoms.label labelName={props.label} />
-                <Atoms.input customplaceholder={props.inputPlaceHolder}/>
+                <Atoms.label LabelName={props.Label} />
+                <Atoms.input CustomPlaceHolder={props.InputPlaceHolder}/>
            </>
 
     )

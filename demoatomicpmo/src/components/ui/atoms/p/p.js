@@ -13,6 +13,6 @@
 import React from "react"; 
 
 function p(props) {
-  return <p className={props.customClass}>{props.content}</p>
+  return <p className={props.CustomClass}>{props.Content}</p>
 }
  export default p;
