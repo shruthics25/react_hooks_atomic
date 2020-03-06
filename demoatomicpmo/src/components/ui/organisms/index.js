@@ -1,13 +1,9 @@
-import Molecules from "../molecules";
-import Logincard from "./logincard/logincard";
+import LabelInputForm from "./labelInputForm/labelInputForm";
 import Header from "./header/header";
-import Atoms from "../atoms";
 
 const Organisms = {
-    Molecules,
-    Logincard,
-    Header,
-    Atoms
+    LabelInputForm,
+    Header
 }
 
 

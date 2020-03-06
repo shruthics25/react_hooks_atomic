@@ -1,9 +1,7 @@
-import Atoms from "../atoms";
-import Formgroup from "./formgroup/formgroup";
+import LabelInput from "./labelInput/labelInput";
 
 const Molecules =  {
-    Atoms,
-    Formgroup
+    LabelInput
 }
 
 export default Molecules
