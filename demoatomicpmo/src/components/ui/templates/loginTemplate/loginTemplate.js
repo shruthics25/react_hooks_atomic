@@ -5,18 +5,17 @@ import Organisms from "../../organisms";
 import Atoms from '../../atoms'
 function LoginTemplate() {
     return (
+        <section className="test">
             <Row className="h-100 align-items-center justify-content-center">
                 <Col lg="5">
-                    <Row>
-                        <Col className="text-center">
-                            <Atoms.h1 content="Login" />
-                        </Col>
+                        <Atoms.h1 content="Login" />
                         <Organisms.LabelInputForm />
                         <Organisms.LabelInputForm />
-                        
-                    </Row>
+                        <Atoms.Custombutton buttonName="Login"/> 
                 </Col>
             </Row>
+        </section>
+
     )
 }
 

@@ -3,12 +3,12 @@ import { Navbar, Nav} from 'react-bootstrap';
 import Atoms from '../../atoms';
 function Header() {
     return (
-        <Navbar bg="primary" expand="lg">
-            <Navbar.Brand >React-Bootstrap</Navbar.Brand>
+        <Navbar bg="success" expand="lg">
+            <Navbar.Brand className="text-white">Atomic Structure Test</Navbar.Brand>
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                    <Atoms.NavLink Href="#HOME" LinkName="Home" />
-                    <Atoms.NavLink Href="#ABOUT" LinkName="about" />
+                    <Atoms.NavLink Href="#HOME" LinkName="Home" customClass="text-white"/>
+                    <Atoms.NavLink Href="#ABOUT" LinkName="about" customClass="text-white"/>
                 </Nav>
                 <Atoms.input customClass="w-25 mr-3" />
                 <Atoms.Custombutton customClass="bg-white" buttonName="Logout" />

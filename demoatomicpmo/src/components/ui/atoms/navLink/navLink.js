@@ -3,7 +3,7 @@ import { Nav } from "react-bootstrap";
 
 
 function NavLink(props) {
-    return <Nav.Link href={props.Href}>{props.LinkName}</Nav.Link>
+    return <Nav.Link href={props.Href} className={props.customClass}>{props.LinkName}</Nav.Link>
 }
 
 export default NavLink;
